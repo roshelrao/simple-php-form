@@ -35,6 +35,8 @@
 	$form->AddRadioButton('beverage', 'Coffee', 0);
 	$form->AddRadioButton('beverage', 'Tea', 1);
 	$form->AddRadioButton('beverage', 'Bawls', 2);
+	$form->AddRadioButton('beverage', 'Coca Cola', 2);
+	$form->AddRadioButton('beverage', 'Matcha', 2);
 
 	// Add check box.
 	$form->Add('checkbox', 'notify', true, array(''), 'Notify me of future gaming events in my area.', '', '');

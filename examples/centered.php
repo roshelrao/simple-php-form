@@ -24,6 +24,8 @@
 	$form->AddRadioButton('beverage', 'Coffee', 0);
 	$form->AddRadioButton('beverage', 'Tea', 1);
 	$form->AddRadioButton('beverage', 'Bawls', 2);
+	$form->AddRadioButton('beverage', 'Coca Cola', 3);
+	$form->AddRadioButton('beverage', 'Matcha', 4);
 
 	// Add text area.
 	$form->Add('textarea', 'suggestions', '', array(''), 'Suggestion Box', 'Have your voice heard!', '');
